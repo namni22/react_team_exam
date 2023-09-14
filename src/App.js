@@ -2,7 +2,8 @@ import { Link, Route, Router, Routes } from "react-router-dom";
 import "./common.css";
 import Header from "./component/common/Header";
 import Main from "./component/common/Main";
-import CoffeeBeans from "./component/beans/CoffeeBeans";
+import CoffeeBeans from "./component/common/beans/CoffeeBeans";
+import Visit from "./component/visit/Visit";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/beans" element={<CoffeeBeans />} />
+        <Route path="/visit" element={<Visit />} />
       </Routes>
       <div className="content-wrap"></div>
     </div>
