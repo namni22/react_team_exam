@@ -34,4 +34,5 @@
 }
 .product:hover img {
   opacity: 0.5;
+  transition-duration: 0.5s;
 }
