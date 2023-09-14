@@ -1,0 +1,6 @@
+.visit-navi > ul {
+  text-align: center;
+}
+.visit-navi > ul > li {
+  display: inline-block;
+}
