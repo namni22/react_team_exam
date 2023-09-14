@@ -9,6 +9,7 @@
   list-style-type: none;
   font-family: "Noto Sans KR", sans-serif;
   font-family: "Noto Serif KR", serif;
+  color: #212121;
 }
 
 .App {
@@ -16,9 +17,8 @@
 }
 
 .content-wrap {
-  float: left;
-  width: 80%;
-  min-height: 100vh;
+  margin-left: 200px;
+  height: 100%;
+  width: 100%;
   box-sizing: border-box;
-  padding: 20px;
 }
