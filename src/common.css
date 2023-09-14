@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Noto Serif KR", serif;
+}
+
+.App {
+  overflow: hidden;
+}
+
+.content-wrap {
+  float: left;
+  width: 80%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 20px;
+}

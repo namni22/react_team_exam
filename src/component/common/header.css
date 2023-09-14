@@ -1,0 +1,18 @@
+.header-wrap {
+  float: left;
+  box-sizing: border-box;
+  width: 20%;
+  min-height: 100vh;
+  background-color: #eee;
+  padding: 20px;
+  min-width: 140px;
+}
+.logo {
+  height: 150px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.navi a {
+  display: block;
+  height: 50px;
+}
