@@ -9,7 +9,7 @@ const Class = () => {
         </div>
         <div className="class-wrap">
           <div className="info-title">
-            연남점 홈 바리스타 코스 HOME BRISTA COURSE
+            서교점 홈 바리스타 코스 HOME BRISTA COURSE
           </div>
           <div className="info-content">
             <div>홈 바리스타 코스 베이직 Home Barista Course Basic</div>
@@ -70,7 +70,7 @@ const Class = () => {
           </div>
           <div className="info-price">
             <div>비용 80,000</div>
-            <div>수업은 연남점에서만 진행합니다.</div>
+            <div>수업은 서교점에서만 진행합니다.</div>
             <div>수업시간은 1시간 30분이며, 2주간 진행됩니다.</div>
             <div>
               2주차의 경우 1주차 진행 후 1주 뒤 같은 요일 같은 시간에
