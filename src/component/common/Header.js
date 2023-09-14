@@ -4,11 +4,13 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="header-wrap">
-      <div className="logo">VENUS</div>
+      <Link to="/" className="logo">
+        VENUS
+      </Link>
       <div className="navi">
         <ul>
           <li>
-            <a>ABOUT</a>
+            <Link to="/about">ABOUT</Link>
           </li>
           <li>
             <Link to="/visit">VISIT</Link>
@@ -20,7 +22,7 @@ const Header = () => {
             <a>CLASS</a>
           </li>
           <li>
-            <a>CONTACT</a>
+            <Link to="/contact">CONTACT</Link>
           </li>
         </ul>
       </div>
