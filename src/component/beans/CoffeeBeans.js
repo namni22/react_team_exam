@@ -1,3 +1,4 @@
+import { Navigate } from "react-router-dom";
 import "./coffeeBeans.css";
 import { useState } from "react";
 const CoffeeBeans = () => {
@@ -66,13 +67,37 @@ const CoffeeBeans = () => {
       img: "/img/beans/coffee.png",
       productName: "페루 도밍고 아기레 Peru Domingo Aguirre",
       productNote:
-        "노트 : 쫀득하고 달콤한 누가 한 조각이 입안에 머무릅니다. 실바람처럼 부드러운 밀크 초콜릿과 고소한 피칸 파이 향이 더해집니다.",
+        "노트 : Nougat, Milk Chocolate, Pecan Pie. 쫀득하고 달콤한 누가 한 조각이 입안에 머무릅니다. 실바람처럼 부드러운 밀크 초콜릿과 고소한 피칸 파이 향이 더해집니다.",
+      productPrice: 16000,
+    },
+    {
+      productNo: 10,
+      img: "/img/beans/coffee.png",
+      productName: "윌리엄 블레이크 William Blake",
+      productNote:
+        "노트 : 윌리엄 블레이크는 다크로스팅에서도 즐길 수 있는 다양한 플래이버와 진하고 묵직한 단맛을 표현합니다. 절인 대추야자와 블랙커런트의 독특한 향미에 카카오닙을 맛보는 듯한 여운을 남깁니다.",
+      productPrice: 16000,
+    },
+    {
+      productNo: 11,
+      img: "/img/beans/coffee.png",
+      productName: "자바 프린자 내추럴 Java Frinsa Natural",
+      productNote:
+        "노트 : Rose, Raspberry, Grape. 장미처럼 고혹적이면서 향기롭습니다. 장미 향이 옅어질 때쯤 달콤하고 싱그러운 라즈베리 향이 이어집니다.",
+      productPrice: 16000,
+    },
+    {
+      productNo: 12,
+      img: "/img/beans/coffee.png",
+      productName: "멕시코 카바노크 디카페인 Mexico CABONOCH Decaffeine",
+      productNote:
+        "노트 : Maplesyrup, Cacao. MWP 공정을 거친 디카페인 특유의 달콤한 향과 견과 노트, 숙면이 소중한 당신에게 소개하고 싶은 커피입니다.",
       productPrice: 16000,
     },
   ]);
   return (
     <div className="main-wrap">
-      <div className="title">CoFFee</div>
+      <div className="title">CoFFee Beans</div>
       <div className="product-list">
         {product.map((bean, index) => {
           return (
@@ -87,7 +112,6 @@ const CoffeeBeans = () => {
             </div>
           );
         })}
-        ;
       </div>
     </div>
   );
