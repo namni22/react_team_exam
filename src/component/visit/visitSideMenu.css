@@ -61,3 +61,8 @@
   width: 65%;
   width: 60%;
 }
+.visit-side-menu a.active{
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  font-weight: 700;
+}
