@@ -71,24 +71,23 @@ const CoffeeBeans = () => {
     },
   ]);
   return (
-    <div className="content-wrap">
-      <div className="main-wrap">
-        <div className="product-list">
-          {product.map((bean, index) => {
-            return (
-              <div key={"product" + index} className="product">
-                <div className="product-img">
-                  <img src={bean.img}></img>
-                </div>
-                <div className="product-info">
-                  <div className="product-title">{bean.productName}</div>
-                  <div className="product-price">{bean.productPrice}원</div>
-                </div>
+    <div className="main-wrap">
+      <div className="title">CoFFee</div>
+      <div className="product-list">
+        {product.map((bean, index) => {
+          return (
+            <div key={"product" + index} className="product">
+              <div className="product-img">
+                <img src={bean.img}></img>
               </div>
-            );
-          })}
-          ;
-        </div>
+              <div className="product-info">
+                <div className="product-title">{bean.productName}</div>
+                <div className="product-price">{bean.productPrice}원</div>
+              </div>
+            </div>
+          );
+        })}
+        ;
       </div>
     </div>
   );
