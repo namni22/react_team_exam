@@ -14,6 +14,8 @@
 
 .App {
   overflow: hidden;
+  display: flex;
+  min-height: 100vh;
 }
 
 .content-wrap {
@@ -21,4 +23,6 @@
   height: 100%;
   width: 100%;
   box-sizing: border-box;
+  min-height: 100vh;
+  flex-grow: 1;
 }

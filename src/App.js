@@ -3,16 +3,21 @@ import "./common.css";
 import Header from "./component/common/Header";
 import Main from "./component/common/Main";
 import CoffeeBeans from "./component/common/beans/CoffeeBeans";
+import About from "./component/about/About";
+import Contact from "./component/contact/Contact";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/beans" element={<CoffeeBeans />} />
-      </Routes>
-      <div className="content-wrap"></div>
+      <div className="content-wrap">
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/beans" element={<CoffeeBeans />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
     </div>
   );
 }
