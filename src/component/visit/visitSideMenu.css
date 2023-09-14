@@ -1,3 +1,9 @@
 .visit-side-menu a {
   color: #222;
+  font-size: 15px;
+}
+.visit-side-menu > ul {
+  width: 1200px;
+  margin: 30px auto;
+  padding: 0;
 }
