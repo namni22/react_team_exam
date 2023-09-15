@@ -8,6 +8,7 @@ import About from "./component/about/About";
 import Contact from "./component/contact/Contact";
 import Class from "./component/class/Class";
 import BeanDetail from "./component/beans/BeanDetail";
+import Login from "./component/login/Login";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/class" element={<Class />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/beanDetail" element={<BeanDetail />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </div>
     </div>
