@@ -27,6 +27,11 @@ const Header = () => {
           </li>
         </ul>
       </div>
+      <div className="login">
+        <a>로그인</a>
+        <span> / </span>
+        <a>회원가입</a>
+      </div>
     </div>
   );
 };
