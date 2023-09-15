@@ -29,8 +29,9 @@
 .product-info > div {
   text-align: right;
 }
+
 .product-price {
-  font-size: 14px;
+  font-weight: bold;
 }
 .product:hover img {
   opacity: 0.5;

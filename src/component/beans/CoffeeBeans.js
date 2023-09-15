@@ -149,17 +149,17 @@ const CoffeeBeans = () => {
       <div className="product-list">
         {product.map((bean, index) => {
           return (
-            <div key={"product" + index} className="product">
-              <Link to="/beanDetail" state={{ b: bean }}>
+            <Link to="/beanDetail" state={{ b: bean }}>
+              <div key={"product" + index} className="product">
                 <div className="product-img">
                   <img src={bean.img}></img>
                 </div>
-              </Link>
-              <div className="product-info">
-                <div className="product-title">{bean.productName}</div>
-                <div className="product-price">{bean.productPrice}원</div>
+                <div className="product-info">
+                  <div className="product-title">{bean.productName}</div>
+                  <div className="product-price">{bean.productPrice}원</div>
+                </div>
               </div>
-            </div>
+            </Link>
           );
         })}
       </div>

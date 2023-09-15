@@ -25,10 +25,11 @@ const BeanDetail = () => {
       </div>
       <div id="detail-info">
         <div>
+          <div>중량 200g 기준 가격입니다.</div>
           <div>※주문은 전화로만 받습니다※</div>
-          <div>서교점 02-336-7650</div>
-          <div>한남점 02-797-7508</div>
-          <div>제주 한림점 064-796-7991</div>
+          <p>서교점 02-336-7650</p>
+          <p>한남점 02-797-7508</p>
+          <p>제주 한림점 064-796-7991</p>
         </div>
         <div className="deliver">
           <p>배송안내</p>
