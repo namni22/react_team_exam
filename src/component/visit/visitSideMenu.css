@@ -8,7 +8,7 @@
   overflow: hidden;
 }
 .visit-side-menu > ul > li {
-  width: calc(100% / 3);
+  width: calc(100% /);
   float: left;
 }
 .visit-side-menu > ul > li > a {
@@ -61,7 +61,7 @@
   width: 65%;
   width: 60%;
 }
-.visit-side-menu a.active{
+.visit-side-menu a.active {
   text-decoration: underline;
   text-underline-offset: 6px;
   font-weight: 700;

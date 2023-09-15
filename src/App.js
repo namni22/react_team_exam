@@ -9,6 +9,7 @@ import Contact from "./component/contact/Contact";
 import Class from "./component/class/Class";
 import BeanDetail from "./component/beans/BeanDetail";
 import Login from "./component/login/Login";
+import VisitMain from "./component/visit/VisitMain";
 
 function App() {
   return (
