@@ -8,6 +8,9 @@
   height: 100vh;
   box-shadow: 0px 0px 10px 0px #6868684b;
 }
+.about-wrap > div {
+  margin-bottom: 100px;
+}
 .logo {
   display: block;
   height: 150px;

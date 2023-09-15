@@ -1,6 +1,23 @@
+import ContactFrm from "./ContactFrm";
+import { useState } from "react";
 import "./contact.css";
 
 const Contact = () => {
+  const [contact, setContact] = useState([]);
+  const no = 0;
+  {
+    /*
+    no
+    name
+    phone
+    question
+  */
+  }
+  const contactAdd = (props) => {
+    contact.push(props);
+  };
+
+  const contactFrm = () => {};
   return (
     <div className="contact-wrap">
       <div className="contact-title">VENUS</div>
@@ -22,28 +39,7 @@ const Contact = () => {
             Venus seoul.
           </span>
         </div>
-        <div className="contact-form">
-          <div className="contact-form-title">CONTACT</div>
-          <div className="contact-form-content">
-            <div className="contact-name">
-              <label htmlFor="name">이름</label>
-              <input type="text" name="name" id="name"></input>
-            </div>
-            <div className="contact-phone">
-              <label htmlFor="phone">연락처</label>
-              <input type="text" name="phone" id="phone"></input>
-              <span>-</span>
-              <input type="text" name="phone" id="phone"></input>
-              <span>-</span>
-              <input type="text" name="phone" id="phone"></input>
-            </div>
-            <div className="contact-question">
-              <label htmlFor="question">내용</label>
-              <textarea type="text" name="question" id="question"></textarea>
-            </div>
-            <button className="contact-btn">작성완료</button>
-          </div>
-        </div>
+        <ContactFrm contactAdd={contactAdd} no={no} />
       </div>
     </div>
   );
