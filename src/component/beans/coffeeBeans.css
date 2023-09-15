@@ -21,7 +21,7 @@
   float: left;
   width: calc(100% / 4);
   cursor: pointer;
-  height: 500px;
+  height: 450px;
 }
 .product-img > img {
   width: 100%;
