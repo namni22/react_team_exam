@@ -69,7 +69,7 @@ const Class = () => {
             </div>
           </div>
           <div className="info-price">
-            <div>비용 80,000</div>
+            <div>비용 80,000원</div>
             <div>수업은 서교점에서만 진행합니다.</div>
             <div>수업시간은 1시간 30분이며, 2주간 진행됩니다.</div>
             <div>

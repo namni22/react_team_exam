@@ -13,18 +13,18 @@ const VisitSideMenu = () => {
     <div className="visit-side-menu">
       <ul>
         <li>
-          <Link to="YEONNAM" onClick={activeMenu}>
-            YEONNAM /
+          <Link to="/visit/seogyo" onClick={activeMenu}>
+            SEOGYO
           </Link>
         </li>
         <li>
-          <Link to="MANGWON" onClick={activeMenu}>
-            MANGWON /
+          <Link to="/visit/hannam" onClick={activeMenu}>
+            HANNAM
           </Link>
         </li>
         <li>
-          <Link to="JEJUHANLIM" onClick={activeMenu}>
-            JEJU HANLIM /
+          <Link to="/visit/jejuhanlim" onClick={activeMenu}>
+            JEJU HANLIM
           </Link>
         </li>
       </ul>
