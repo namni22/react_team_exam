@@ -9,6 +9,7 @@ import Contact from "./component/contact/Contact";
 import Class from "./component/class/Class";
 import BeanDetail from "./component/beans/BeanDetail";
 import Login from "./component/login/Login";
+import Join from "./component/login/Join";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/beanDetail" element={<BeanDetail />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/join" element={<Join />} />
         </Routes>
       </div>
     </div>
