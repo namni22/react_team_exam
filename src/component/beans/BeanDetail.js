@@ -24,7 +24,12 @@ const BeanDetail = () => {
         </div>
       </div>
       <div id="detail-info">
-        <div>주문은 전화로만 받습니다</div>
+        <div>
+          <div>※주문은 전화로만 받습니다※</div>
+          <div>서교점 02-336-7650</div>
+          <div>한남점 02-797-7508</div>
+          <div>제주 한림점 064-796-7991</div>
+        </div>
         <div className="deliver">
           <p>배송안내</p>
           <div>
