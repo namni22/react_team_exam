@@ -26,11 +26,11 @@ const Contact = () => {
           <div className="contact-form-title">CONTACT</div>
           <div className="contact-form-content">
             <div className="contact-name">
-              <label for="name">이름</label>
+              <label htmlFor="name">이름</label>
               <input type="text" name="name" id="name"></input>
             </div>
             <div className="contact-phone">
-              <label for="phone">연락처</label>
+              <label htmlFor="phone">연락처</label>
               <input type="text" name="phone" id="phone"></input>
               <span>-</span>
               <input type="text" name="phone" id="phone"></input>
@@ -38,7 +38,7 @@ const Contact = () => {
               <input type="text" name="phone" id="phone"></input>
             </div>
             <div className="contact-question">
-              <label for="question">내용</label>
+              <label htmlFor="question">내용</label>
               <textarea type="text" name="question" id="question"></textarea>
             </div>
             <button className="contact-btn">작성완료</button>

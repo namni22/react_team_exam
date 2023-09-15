@@ -1,4 +1,4 @@
-import { Navigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import "./coffeeBeans.css";
 import { useState } from "react";
 const CoffeeBeans = () => {
@@ -102,9 +102,11 @@ const CoffeeBeans = () => {
         {product.map((bean, index) => {
           return (
             <div key={"product" + index} className="product">
-              <div className="product-img">
-                <img src={bean.img}></img>
-              </div>
+              <Link to="/beanDetail" state={{ b: bean }}>
+                <div className="product-img">
+                  <img src={bean.img}></img>
+                </div>
+              </Link>
               <div className="product-info">
                 <div className="product-title">{bean.productName}</div>
                 <div className="product-price">{bean.productPrice}원</div>

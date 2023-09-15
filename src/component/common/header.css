@@ -23,3 +23,19 @@
   text-decoration: underline;
   font-weight: 700;
 }
+.login {
+  position: absolute;
+  position: fixed;
+  bottom: 20px;
+}
+.login > a,
+.login > span {
+  font-size: 14px;
+}
+.login > a {
+  cursor: pointer;
+}
+.login > a:hover {
+  text-decoration: underline;
+  font-weight: 700;
+}
