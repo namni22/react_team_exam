@@ -21,7 +21,7 @@
   float: left;
   width: calc(100% / 4);
   cursor: pointer;
-  height: 500px;
+  height: 450px;
 }
 .product-img > img {
   width: 100%;
@@ -29,8 +29,9 @@
 .product-info > div {
   text-align: right;
 }
+
 .product-price {
-  font-size: 14px;
+  font-weight: bold;
 }
 .product:hover img {
   opacity: 0.5;
