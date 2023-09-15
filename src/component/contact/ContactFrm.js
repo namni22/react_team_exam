@@ -2,16 +2,18 @@ import "./contactFrm.css";
 import { useState } from "react";
 const ContactFrm = (props) => {
   const contactAdd = props.contactAdd;
-  const no = props.no;
+  let no = props.no;
+  no++;
   const [contact, setContact] = useState([]);
   const result = () => {
     const name = document.querySelector("[name=addName]").value;
-    const phone = document.querySelector("[name=addPhone1]").value;
-    phone += document.querySelector("[name=addPhone2]").value;
-    phone += document.querySelector("[name=addPhone3]").value;
+    const phone1 = document.querySelector("[name=addPhone1]").value;
+    const phone2 = document.querySelector("[name=addPhone2]").value;
+    const phone3 = document.querySelector("[name=addPhone3]").value;
+    const phone = phone1 + phone2 + phone3;
     const addr = document.querySelector("[name=question").value;
     const contact = {
-      no: no++,
+      no: no,
       name: name,
       phone: phone,
       addr: addr,

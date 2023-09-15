@@ -4,7 +4,7 @@ import "./contact.css";
 
 const Contact = () => {
   const [contact, setContact] = useState([]);
-  const no = 0;
+  let no = 0;
   {
     /*
     no
@@ -13,11 +13,13 @@ const Contact = () => {
     question
   */
   }
-  const contactAdd = (props) => {
-    contact.push(props);
+  const contactAdd = (contact) => {
+    const newContact = [...contact];
+    newContact.push(contact);
+    console.log(contact);
+    setContact(newContact);
   };
 
-  const contactFrm = () => {};
   return (
     <div className="contact-wrap">
       <div className="contact-title">VENUS</div>
