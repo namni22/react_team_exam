@@ -7,6 +7,7 @@ import Visit from "./component/visit/Visit";
 import About from "./component/about/About";
 import Contact from "./component/contact/Contact";
 import Class from "./component/class/Class";
+import BeanDetail from "./component/beans/BeanDetail";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/beans" element={<CoffeeBeans />} />
           <Route path="/class" element={<Class />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/beanDetail" element={<BeanDetail />} />
         </Routes>
       </div>
     </div>
