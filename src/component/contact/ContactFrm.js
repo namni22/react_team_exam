@@ -5,11 +5,11 @@ const ContactFrm = (props) => {
   const no = props.no;
   const [contact, setContact] = useState([]);
   const result = () => {
-    const name = document.querySelector("[name=addName]").value();
-    const phone = document.querySelector("[name=addPhone1]").value();
-    phone += document.querySelector("[name=addPhone2]").value();
-    phone += document.querySelector("[name=addPhone3]").value();
-    const addr = document.querySelector("[name=question").value();
+    const name = document.querySelector("[name=addName]").value;
+    const phone = document.querySelector("[name=addPhone1]").value;
+    phone += document.querySelector("[name=addPhone2]").value;
+    phone += document.querySelector("[name=addPhone3]").value;
+    const addr = document.querySelector("[name=question").value;
     const contact = {
       no: no++,
       name: name,
