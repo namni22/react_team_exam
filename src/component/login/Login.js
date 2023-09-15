@@ -25,6 +25,7 @@ const Login = () => {
             <div className="contact-name">
               <label htmlFor="id">아이디</label>
               <input
+                required
                 placeholder="아이디를 입력해주세요"
                 type="text"
                 name="id"
@@ -38,6 +39,7 @@ const Login = () => {
             <div className="contact-name">
               <label htmlFor="pw">비밀번호</label>
               <input
+                required
                 placeholder="비밀번호를 입력해주세요"
                 type="password"
                 name="pw"

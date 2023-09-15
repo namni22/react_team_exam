@@ -30,7 +30,7 @@ const Header = () => {
       <div className="login">
         <Link to="/login">로그인</Link>
         <span> / </span>
-        <a>회원가입</a>
+        <Link to="/join">회원가입</Link>
       </div>
     </div>
   );
