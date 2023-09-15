@@ -7,9 +7,6 @@ import Visit from "./component/visit/Visit";
 import About from "./component/about/About";
 import Contact from "./component/contact/Contact";
 import Class from "./component/class/Class";
-import VisitSeoGyo from "./component/visit/VisitSeoGyo";
-import VisitHannam from "./component/visit/VisitHannam";
-import VisitJejuHanlim from "./component/visit/VisitJejuHanlim";
 
 function App() {
   return (
