@@ -1,0 +1,50 @@
+.main-wrap > div {
+  margin: 0 auto;
+  padding: 50px;
+}
+.detail-content {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.bean-img {
+  justify-content: center;
+  text-align: center;
+}
+.bean-img > img {
+  width: 80%;
+}
+.bean {
+  width: 50%;
+}
+.bean-title {
+  padding: 30px 0;
+  border-bottom: 2px solid #eee;
+}
+.bean-name {
+  font-size: 20px;
+}
+.bean-content {
+  padding: 30px 0;
+}
+.bean-content > div {
+  padding: 10px 0;
+}
+#detail-info {
+  margin: 0 auto;
+  padding-left: 150px;
+}
+#detail-info > div:first-child > div {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+#detail-info div {
+  padding: 10px 0;
+}
+.deliver > p,
+.exchange > p,
+.refund > p {
+  font-weight: bold;
+  text-decoration: underline;
+}

@@ -10,6 +10,7 @@ import Class from "./component/class/Class";
 import BeanDetail from "./component/beans/BeanDetail";
 import Login from "./component/login/Login";
 import Join from "./component/login/Join";
+import VisitMain from "./component/visit/VisitMain";
 
 function App() {
   return (
