@@ -18,10 +18,24 @@ const VisitJejuHanlim = () => {
       </div>
       <div className="seogyo-img-wrap">
         <div className="seogyo-img1">
-          <img src="img/visit/seogyo1.jpg"></img>
+          <img id="img1" src="/img/visit/hanlim1.jpg"></img>
         </div>
         <div className="seogyo-img2">
-          <img src="img/visit/seogyo2.jpg"></img>
+          <img id="img2" src="/img/visit/hanlim2.jpg"></img>
+        </div>
+      </div>
+      <div className="seogyo-img3">
+        <img id="img3" src="/img/visit/jejuhanlim.jpg"></img>
+      </div>
+      <div className="seogyo-img-wrap">
+        <div className="seogyo-img1">
+          <img id="img4" src="/img/visit/hanlim4.jpg"></img>
+        </div>
+        <div className="seogyo-img2">
+          <img id="img5" src="/img/visit/hanlim5.jpg"></img>
+        </div>
+        <div className="seogyo-img2">
+          <img id="img6" src="/img/visit/hanlim6.jpg"></img>
         </div>
       </div>
     </>
